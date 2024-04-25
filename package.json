@@ -1,0 +1,14 @@
+{
+  "name": "task-1-utf",
+  "version": "1.0.0",
+  "description": "Task 1 in UTF Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariusz Januszek",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.1.1"
+  }
+}
