@@ -1,6 +1,6 @@
-const { expect } = require('chai');
-const { describe, beforeEach, afterEach, it } = require('mocha');
-const NumbersValidator = require('../app/numbers-validators');
+import { expect } from 'chai'
+import { describe, beforeEach, afterEach, it } from 'mocha'
+import NumbersValidator from '../../app/numbers_validators.js';
 
 describe('isNumberEven',() => {
     let validator;
@@ -27,5 +27,5 @@ describe('isNumberEven',() => {
         }).to.throw('[4] is not of type "Number" it is of type "string"')
     })
 
-    this.timeout()
+
 })
