@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Task 1 in UTF Module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "c8 npm test"
   },
   "author": "Mariusz Januszek",
   "license": "ISC",
