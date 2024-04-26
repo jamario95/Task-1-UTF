@@ -13,11 +13,12 @@ describe('isInteger', () => {
         validator= null;
     })
 
+    //Test case 1: When it is number
     it('should return true if n is an int', () => {
         expect(validator.isInteger(4)).to.be.equal(true);
     })
 
-
+    //Test case 2: When it is string instead of number
     it('should return false if n is not an int', () => {
         expect( () => {
             validator.isInteger('4');

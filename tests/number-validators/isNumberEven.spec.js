@@ -13,14 +13,17 @@ describe('isNumberEven',() => {
         validator = null;
     });
 
+    //Test case 1: When it is even number
     it('shold return true if number is even', () => {
         expect(validator.isNumberEven(4)).to.be.equal(true);
     })
 
+    //Test case 2: When it is odd number
     it('should return false if number is odd', () => {
         expect(validator.isNumberEven(5)).to.be.equal(false);
     })
 
+    //Test case 3: When it is string istead of number
     it('should throw an error when provided with string', () => {
         expect(() => {
             validator.isNumberEven('4')
