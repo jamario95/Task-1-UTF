@@ -7,7 +7,7 @@
   "scripts": {
     "test": "mocha",
     "coverage": "c8 npm test",
-    "lint": "eslint ./tests/number-validators",
+    "lint": "eslint ./tests/number-validators --fix",
     "lintx": "eslint ./app --fix"
   },
   "author": "Mariusz Januszek",
